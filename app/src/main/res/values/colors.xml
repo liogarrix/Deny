@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="back">#F3020E1E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary1">#6200EE</color>
+    <color name="colorPrimaryDark1">#3700B3</color>
+    <color name="colorAccent1">#03DAC5</color>
+    <color name="loginBtn">#FBC00A</color>
+    <color name="registrationBtn">#1F1F1F</color>
+    <color name="primary_dark_material_light">#1F1F1F</color>
+    <color name="senha">#FF914D</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="white2">#41FFFFFF</color>
+    <color name="louco">#FFE8E4</color>
+
+</resources>

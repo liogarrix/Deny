@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/clinica"
+    tools:context=".info_medicas">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Alergias"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/senha"
+        android:hint=" Alergias "
+        android:inputType="textEmailAddress"
+        android:textColor="@color/back"
+        android:textColorHint="@color/registrationBtn" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Tipo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/senha"
+        android:inputType="text"
+        android:hint=" Tipos de Doencas"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/registrationBtn"
+        android:textColor="@color/back" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Nome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/senha"
+        android:inputType="text"
+        android:hint=" Nome da Doenca"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/registrationBtn"
+        android:textColor="@color/back" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Medicamento"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/senha"
+        android:inputType="text"
+        android:hint=" Medicamentos em Uso"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/registrationBtn"
+        android:textColor="@color/back" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Historico"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/senha"
+        android:inputType="text"
+        android:hint=" Historico de Vacinacao"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/registrationBtn"
+        android:textColor="@color/back" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/principal"
+            android:text="Guardar Informacao"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>

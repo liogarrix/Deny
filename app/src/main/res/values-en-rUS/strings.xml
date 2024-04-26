@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Denise</string>
+    <string name="Bem_vindo">Welcome, what do you want to ask??</string>
+    <string name="Digitar">To write...</string>
+    <string name="Footer">All rights reserved</string>
+    <string name="senha"> Password</string>
+    <string name="email"> Email</string>
+    <string name="nome"> Name</string>
+    <string name="endereco"> Address</string>
+    <string name="contacto"> Contact Emergence</string>
+</resources>

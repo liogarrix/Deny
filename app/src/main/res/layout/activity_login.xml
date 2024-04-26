@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clinica"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/senha"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/back"
+        android:textColorHint="@color/registrationBtn" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/senha"
+        android:inputType="text"
+        android:hint=" Nome"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/registrationBtn"
+        android:textColor="@color/back" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Genero"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/senha"
+        android:inputType="text"
+        android:hint=" Genero"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/registrationBtn"
+        android:textColor="@color/back" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Endereco"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/senha"
+        android:hint=" Endereco"
+        android:inputType="text"
+        android:textColor="@color/back"
+        android:textColorHint="@color/registrationBtn" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Contacto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/senha"
+        android:hint=" Contacto de Emergencia"
+        android:inputType="text"
+        android:textColor="@color/back"
+        android:textColorHint="@color/registrationBtn" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Contacto_emergencia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/senha"
+        android:inputType="text"
+        android:hint=" Senha"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/registrationBtn"
+        android:textColor="@color/back" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_weight="1"
+            android:background="@drawable/principal"
+            android:text="Guardar Dados"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

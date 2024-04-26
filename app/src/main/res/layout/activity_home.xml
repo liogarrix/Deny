@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/clinica"
+    tools:context=".Home">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_settings"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="360dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_history"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="360dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="130dp">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/senha">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Bem Vindo, Como Posso Ajudar?"
+            android:textAlignment="center"
+            android:textColor="@color/back"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/principal"
+        android:layout_marginTop="20dp"
+        android:hint="     Escrever..."
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/recordButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ic_mic" />
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Todos Direitos Reservados"
+            android:textAlignment="center"
+            android:layout_marginTop="130dp"
+            android:textColor="#2A516C"/>
+    </LinearLayout>
+</LinearLayout>

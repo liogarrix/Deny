@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Denise</string>
+    <string name="Bem_vindo">Bem Vindo, o que deseja perguntar?</string>
+    <string name="Digitar">Escrever...</string>
+    <string name="Footer">Todos Direitos Reservados</string>
+    <string name="senha"> Senha</string>
+    <string name="email"> Email</string>
+    <string name="nome"> Name</string>
+    <string name="endereco"> Endereco</string>
+    <string name="contacto"> Contacto de Emergencia</string>
+</resources>
